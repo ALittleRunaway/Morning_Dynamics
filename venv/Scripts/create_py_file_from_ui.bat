@@ -1,0 +1,1 @@
+pyuic5.exe -x C:\Users\Maria\OneDrive\Documents\Python\Morning_Dynamics\attempts\attempt.ui -o C:\Users\Maria\OneDrive\Documents\Python\Morning_Dynamics\attempts\attempt.py
