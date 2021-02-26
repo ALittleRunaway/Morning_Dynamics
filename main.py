@@ -1,6 +1,7 @@
 """Just the fitst attempt to get values in CLI"""
 import currencies as cr
 import news as nw
+import weather as wt
 import requests
 
 
@@ -10,6 +11,7 @@ class Printing():
     currencies = cr.Currencies.getNormalCurrency()
     crypto_currencys = cr.Currencies.getCryptoCurrency()
     articles = nw.News.getNews()
+    weather_now, weather_forecast = wt.Weather.getWeather()
 
     @staticmethod
     def printingCurrencies():
@@ -43,10 +45,25 @@ class Printing():
                   article["url"], "\n", article["publishedAt"], "\n")
 
     @staticmethod
+    def printingWeather():
+        """prints weather information"""
+        print("\n", "#" * 35, "\n", '{0: ^35}'.format("WEATHER"))
+        for key, value in Printing.weather_now.items():
+            print(key, ":", value)
+        print("-" * 35, "\n", '{0: ^35}'.format("FORECAST"))
+        for day in Printing.weather_forecast:
+            for key, value in day.items():
+                print(key, ":", value)
+            print("--------")
+
+
+
+    @staticmethod
     def printingAll():
         """prints everything"""
         Printing.printingCurrencies()
         Printing.printingNews()
+        Printing.printingWeather()
 
 
 if __name__ == "__main__":

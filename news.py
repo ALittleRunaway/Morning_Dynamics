@@ -21,7 +21,6 @@ class News():
                                  # "sourses": "bbc-news",
                                  # "domains": "bbc.com",
                                  "language": "en"})
-        # print(r.status_code, end=" ")
         news = json.loads(r.text)
         articles_buff = news["articles"]
         articles = []
