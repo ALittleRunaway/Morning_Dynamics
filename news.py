@@ -28,5 +28,11 @@ class News():
         for article in articles_buff:
             articles.append({"title": article["title"], "description": article["description"], "url": article["url"],
                              "urlToImage": article["urlToImage"], "publishedAt": article["publishedAt"]})
-
+            with open(f"pictures/{''.join(article['title'][:10].split())}.jpg", "wb") as f:
+                try:
+                    f.write(requests.get(article["urlToImage"]).content)
+                except:
+                    pass
         return articles
+
+News.getNews()
