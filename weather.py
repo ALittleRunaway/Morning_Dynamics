@@ -26,6 +26,11 @@ class Weather():
                        "text": w_now["condition"]["text"], "icon": w_now["condition"]["icon"],
                        "wind_kph": w_now["wind_kph"], "pressure_mb": w_now["pressure_mb"],
                        "humidity": w_now["humidity"], "cloud": w_now["cloud"]}
+        with open(f"pictures/weather.png", "wb") as f:
+            try:
+                f.write(requests.get(f"http:{weather_now['icon']}").content)
+            except:
+                pass
         # Forecast weather
         weather_forecast = []
         for w in w_forecast:

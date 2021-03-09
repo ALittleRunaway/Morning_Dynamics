@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>820</width>
-    <height>554</height>
+    <width>869</width>
+    <height>583</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,11 +20,14 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>10</y>
+      <x>320</x>
+      <y>20</y>
       <width>381</width>
-      <height>511</height>
+      <height>551</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(203, 227, 255)</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -36,9 +39,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>70</y>
+       <y>90</y>
        <width>361</width>
-       <height>71</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -82,9 +85,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>160</y>
+       <y>190</y>
        <width>361</width>
-       <height>71</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -113,9 +116,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>430</y>
+       <y>490</y>
        <width>371</width>
-       <height>71</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -144,9 +147,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>340</y>
+       <y>390</y>
        <width>361</width>
-       <height>71</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -175,9 +178,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>250</y>
+       <y>290</y>
        <width>361</width>
-       <height>71</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -227,17 +230,28 @@
        <x>10</x>
        <y>50</y>
        <width>361</width>
-       <height>21</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Segoe UI Historic</family>
+       <family>Segoe UI Semibold</family>
        <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="text">
       <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -250,19 +264,30 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>140</y>
+       <y>150</y>
        <width>361</width>
-       <height>21</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Segoe UI Historic</family>
+       <family>Segoe UI Semibold</family>
        <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="text">
       <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -272,19 +297,30 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>230</y>
+       <y>250</y>
        <width>361</width>
-       <height>21</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Segoe UI Historic</family>
+       <family>Segoe UI Semibold</family>
        <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="text">
       <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -294,19 +330,30 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>350</y>
        <width>361</width>
-       <height>21</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Segoe UI Historic</family>
+       <family>Segoe UI Semibold</family>
        <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="text">
       <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -316,19 +363,30 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>410</y>
+       <y>450</y>
        <width>361</width>
-       <height>21</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Segoe UI Historic</family>
+       <family>Segoe UI Semibold</family>
        <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="text">
       <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -338,11 +396,14 @@
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
+      <x>20</x>
+      <y>70</y>
       <width>281</width>
       <height>211</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(203, 227, 255)</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -977,11 +1038,14 @@
    <widget class="QFrame" name="frame_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>270</y>
+      <x>20</x>
+      <y>300</y>
       <width>281</width>
-      <height>251</height>
+      <height>261</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(203, 227, 255)</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -1008,31 +1072,604 @@
       <string>Weather</string>
      </property>
     </widget>
-   </widget>
-   <widget class="QLabel" name="date">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>271</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI Light</family>
-      <pointsize>26</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>DATE</string>
-    </property>
+    <widget class="QLabel" name="label_weather_icon">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Today</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Temp:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="temp">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="feels_like">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Feels like:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="wind">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>110</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wind:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ch_of_rain">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Ch of rain:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sunset">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>150</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_21">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>150</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Sunset:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sunrise">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>130</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_22">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>130</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>Sinrise: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="weather_text">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>110</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Text</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="humidity">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Humidity:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tomorrow</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>After tomorrow</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tm_temp">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>200</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Temp:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tm_humidity">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>220</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_25">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Humidity:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tm_ch_of_rain">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>240</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_26">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Ch of rain:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="atm_temp">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>200</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_27">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>200</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Temp:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="atm_humidity">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>220</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_28">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>220</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Humidity:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cur_29">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>240</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Ch of rain:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="atm_ch_of_rain">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>240</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>numbers</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QLabel" name="label_picture_1">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>70</y>
+      <x>720</x>
+      <y>80</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -1065,8 +1702,8 @@
    <widget class="QLabel" name="label_picture_2">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>160</y>
+      <x>720</x>
+      <y>180</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -1099,8 +1736,8 @@
    <widget class="QLabel" name="label_picture_3">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>250</y>
+      <x>720</x>
+      <y>280</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -1133,8 +1770,8 @@
    <widget class="QLabel" name="label_picture_4">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>340</y>
+      <x>720</x>
+      <y>380</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -1167,8 +1804,8 @@
    <widget class="QLabel" name="label_picture_5">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>430</y>
+      <x>720</x>
+      <y>480</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -1196,6 +1833,68 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Light</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Have a great day!</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Symbol</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-shadow: 4px 3px 0 #7A7A7A, 2px 2px 2px rgba(206,89,55,0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string>DATE</string>
     </property>
    </widget>
   </widget>
